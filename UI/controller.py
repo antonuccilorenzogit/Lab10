@@ -44,4 +44,4 @@ class Controller:
                 self._view.lista_visualizzazione.controls.append(ft.Text(f'{i}) [{hub_origine} -> {hub_arrivo}] -- guadagno medio per spedizione: ${guadagno_medio}'))
                 i+=1
             self._view.update()
-
+            ''
